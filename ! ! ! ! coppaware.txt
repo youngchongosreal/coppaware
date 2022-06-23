@@ -16,7 +16,7 @@ local GUI = Mercury:Create{
 
 GUI:Notification{
 	Title = "Join Coppaware!",
-	Text = "join here: discord.gg/yu95P48XaV",
+	Text = "join here: Sike invite patched rn cuz padildo is a twat",
 	Duration = 20,
 	Callback = function() end
 }
