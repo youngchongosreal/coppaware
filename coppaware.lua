@@ -16,7 +16,7 @@ local GUI = Mercury:Create{
 
 GUI:Notification{
 	Title = "Join Coppaware!",
-	Text = "join here: Sike invite patched rn cuz padildo is a twat",
+	Text = "join here: discord.gg/yu95P48XaV",
 	Duration = 20,
 	Callback = function() end
 }
@@ -161,6 +161,12 @@ Tab:Button{
 local Tab = GUI:Tab{
 	Name = "fun-stuff",
 	Icon = "rbxassetid://8569322835"
+}
+
+Tab:Button{
+	Name = "FE Hamster Ball",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://pastebin.com/raw/NFUuvC0W'))() end
 }
 
 Tab:Button{
@@ -1188,6 +1194,6 @@ GUI:Credit{
 GUI:Credit{
 	Name = "Dark Eccentric",
 	Description = "Also a showcaser, you can find the script owners on their channels.",
-	V3rm = "||unknown",
+	V3rm = "unknown",
 	Discord = "DE#8076"
 }
