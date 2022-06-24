@@ -155,7 +155,7 @@ Tab:Button{
 Tab:Button{
 	Name = "Chat AutoTranslator (translates you and other people)",
 	Description = nil,
-	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))() end
+	Callback = function() loadstring(game:HttpGetAsync('https://i.qts.life/r/ChatInlineTranslator.lua', true))() end
 }
 
 local Tab = GUI:Tab{
@@ -1194,6 +1194,6 @@ GUI:Credit{
 GUI:Credit{
 	Name = "Dark Eccentric",
 	Description = "Also a showcaser, you can find the script owners on their channels.",
-	V3rm = "unknown",
+	V3rm = "||unknown",
 	Discord = "DE#8076"
 }
