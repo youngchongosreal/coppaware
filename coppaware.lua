@@ -12,13 +12,7 @@ This isn't a beta of Premium. None of the premium scripts are in this hub, due t
 ENJOY!
 ]]--
 
-
--- antiban script:
-setfflag("DFStringCrashPadUploadToBacktraceToBacktraceBaseUrl", "")
-setfflag("DFIntCrashUploadToBacktracePercentage", "0")
--- antikick
-for _,v in ipairs(getconnections(game:service'GuiService'.MenuOpened))do v:Disconnect()end
-loadstring(game:HttpGet("https://irisapp.ca/TheGoodSucc/iAntiCheat.lua"))()
+-- antiban and anti kick were bugged so they got removed. this script will likely no longer be updated because i dont use it anymore
 
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
